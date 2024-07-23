@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  color: #3c3c3c;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #fffbf3;
+  padding: 40px 0;
+}
+
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .logo {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.nav .logo span {
+  color: #fcc647;
+}
+
+.nav .links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav .links a {
+  transition: 0.2s;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.nav .links a:hover {
+  color: #fcc647;
+  border-bottom: 4px solid #fcc647;
+}
+
+footer {
+  background-color: #232233;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+}
+
+.card-contact-bg {
+  margin-top: 100px;
+  background-image: linear-gradient(to top, #232233 0 50%, white 50% 100%);
+}
+
+.card-contact {
+  padding: 60px 100px;
+  box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.24);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.vLine {
+  border: 2px solid #e6e6e6;
+
+  height: 100px;
+}
+
+.card-contact__elem {
+  font-weight: 600;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-contact__icon {
+  background-color: #f6ca00;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.paragraph {
+  font-size: 14px;
+  color: #667085;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.how-it-works {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.how-it-works > .paragraph {
+  margin-top: 30px;
+}
+
+.how-it-works__cards {
+  margin-top: 80px;
+  display: flex;
+  gap: 90px;
+}
+
+.how-it-works__cards .myCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.how-it-works__cards .img-wrapper {
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #335dff;
+}
+
+.myCard:nth-child(1) .img-wrapper {
+  background-color: #335dff;
+}
+
+.myCard:nth-child(2) .img-wrapper {
+  background-color: #f6ca00;
+}
+
+.myCard:nth-child(3) .img-wrapper {
+  background-color: #0bd28e;
+}
+
+.myCard:nth-child(2) {
+  margin-top: 40px;
+}
