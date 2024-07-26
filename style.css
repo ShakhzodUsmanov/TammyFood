@@ -83,7 +83,6 @@ footer {
 
 .vLine {
   border: 2px solid #e6e6e6;
-
   height: 100px;
 }
 
@@ -157,4 +156,126 @@ footer {
 
 .myCard:nth-child(2) {
   margin-top: 40px;
+}
+
+.carousel-control-prev-myicon {
+  background-color: #f6ca00;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  padding: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-control-next-myicon {
+  background-color: #f6ca00;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  padding: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-control-prev-myicon img {
+  width: 100%;
+}
+.carousel-control-next-myicon img {
+  width: 100%;
+}
+.carousel-control-prev {
+  opacity: 1;
+  left: -200px;
+}
+.carousel-control-next {
+  opacity: 1;
+  right: -200px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 45px;
+  column-gap: 25px;
+}
+
+.dish-card {
+  border: 0.7px solid rgba(112, 112, 112, 0.2);
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+.dish-card:hover {
+  border: 1px solid #f9a755;
+  box-shadow: 0 30px 30px 13px rgba(198, 198, 198, 0.25);
+}
+
+.dish-card-img-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.dish-card-img-wrapper img {
+  width: 100%;
+}
+
+.dish-card-title {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3c3c3c;
+}
+
+.dish-card-stars {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.dish-card-p {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #667085;
+}
+
+.dish-card-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3c3c3c;
+}
+
+.dish-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dish-btn {
+  display: flex;
+  padding: 6px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: none;
+}
+
+.dish-btn:nth-child(1) {
+  background: #f24d21;
+}
+.dish-btn:nth-child(2) {
+  background: #3c3c3c;
 }
