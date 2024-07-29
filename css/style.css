@@ -37,6 +37,13 @@ a {
   background-color: #fffbf3;
 }
 
+.target {
+  padding: 10px 20px;
+  font-weight: 600;
+  color: #f4b41b;
+  background: #fff2d4;
+}
+
 /* Promo ============================================== */
 
 .promo {
@@ -76,13 +83,6 @@ a {
 .promo .paragraph {
   margin-top: 10px;
   line-height: 200%;
-}
-
-.promo-fast-delivery {
-  padding: 10px 20px;
-  font-weight: 600;
-  color: #f4b41b;
-  background: #fff2d4;
 }
 
 .promo-btns {
@@ -386,6 +386,45 @@ a {
   background: #3c3c3c;
 }
 
+/* Fast-delivery */
+.fast-delivery {
+  margin-top: 120px;
+  background-color: #fffbf3;
+}
+
+.fast-delivery .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fast-delivery-img-wrapper {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.fast-delivery-text {
+  width: 45%;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.fast-delivery-btn {
+  padding: 15px 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  background: #fcc647;
+  color: #fff;
+}
+
 /* Contact card */
 
 .card-contact-bg {
@@ -430,4 +469,3 @@ footer {
   color: white;
   text-align: center;
 }
-
