@@ -250,7 +250,6 @@ a {
 }
 
 /* Delicious Dish-Carousel ======================================= */
-
 .delicious-dish {
   margin-top: 100px;
 }
@@ -265,6 +264,7 @@ a {
 
 .carousel {
   margin-top: 75px;
+  padding-bottom: 100px;
 }
 
 .carousel-control-prev-myicon {
@@ -296,12 +296,15 @@ a {
   width: 100%;
 }
 .carousel-control-prev {
+  top: 100%;
   opacity: 1;
-  left: -200px;
+  left: 50%;
+  transform: translate(-100%, -50%);
 }
 .carousel-control-next {
+  top: 100%;
   opacity: 1;
-  right: -200px;
+  left: 50%;
 }
 
 .card-grid {
@@ -427,6 +430,33 @@ a {
   color: #fff;
 }
 
+/* Discount */
+.discount{
+  margin-top: 100px;
+}
+.discount .container{
+  display: flex;
+  gap: 100px;
+}
+
+.discount-text{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 35px;
+}
+
+.discount-img-wrapper img{
+  width: 100%;
+}
+
+.discount-text-footer{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 /* Contact card */
 
 .card-contact-bg {
@@ -464,7 +494,6 @@ a {
 }
 
 /* Footer */
-
 footer {
   background-color: #232233;
   padding: 140px 0 18px;
@@ -484,18 +513,13 @@ footer .footer-content .footer-list {
   gap: 10px;
 }
 
-footer .footer-content .footer-list .footer-list-icons {
+.footer-list-icons {
   display: flex;
 }
-
-footer .footer-content .footer-list .footer-list-icons .list-icon {
+.list-icon {
   padding: 0 20px;
 }
-footer
-  .footer-content
-  .footer-list
-  .footer-list-icons
-  .list-icon:nth-child(-n + 3) {
+.list-icon:nth-child(-n + 3) {
   border-right: 1px solid white;
 }
 
